@@ -4,33 +4,45 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:icon="@drawable/ic_visibility_black_18dp"
+            android:title="Explore" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:icon="@drawable/ic_add_a_photo_black_18dp"
+            android:title="Rent" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_schedule_black_18dp"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/rentedcostumes"
+            android:icon="@drawable/ic_local_offer_black_18dp"
+            android:title="Rented Costumes" />
+
+        <item
+            android:id="@+id/usedcostumes"
+            android:icon="@drawable/ic_shopping_basket_black_18dp"
+            android:title="Used Costumes" />
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/ic_favorite_black_18dp"
+            android:title="Favorite Costumes" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuhelp"
+            android:icon="@drawable/ic_help_black_18dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_black_18dp"
+            android:title="Setings" />
+    </group>
+
 
 </menu>

@@ -47,6 +47,14 @@ public class LoginActivity extends Activity {
                 finish();
             }
         });
+
+        btnLinkToForgotLogin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), ForgotLogin.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 
         public void login() {
@@ -58,7 +66,7 @@ public class LoginActivity extends Activity {
             }
             btnLogin.setEnabled(false);
 
-            final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this, R.style.AppTheme);
+            final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this, R.style.MyTheme_ProgressDialog_);
             progressDialog.setIndeterminate(true);
             progressDialog.setMessage("Authenticating...");
             progressDialog.show();

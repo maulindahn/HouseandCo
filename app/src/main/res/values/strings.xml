@@ -21,4 +21,6 @@
     <string name="btn_link_to_forgot">"Forgot your login details? Get help signing in."</string>
     <string name="btn_link_to_licenceagreements">"I accept House.co's Term of Service and Privacy Policy"</string>
 
+    <string name="username">"@maulindahn"</string>
+
 </resources>

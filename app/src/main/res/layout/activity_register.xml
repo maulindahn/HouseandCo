@@ -54,6 +54,7 @@
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
                         android:maxLines="1"
+                        android:background="@color/white"
                         android:inputType="textCapWords"
                         android:textColor="@color/input"
                         android:textColorHint="@color/input_hint" />
@@ -73,6 +74,7 @@
                         android:maxLines="1"
                         android:inputType="textCapWords"
                         android:textColor="@color/input"
+                        android:background="@color/white"
                         android:textColorHint="@color/input_hint" />
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
@@ -100,6 +102,7 @@
                 android:padding="10dp"
                 android:maxLines="1"
                 android:textColor="@color/input"
+                android:background="@color/white"
                 android:textColorHint="@color/input_hint" />
         </android.support.design.widget.TextInputLayout>
 
@@ -113,10 +116,11 @@
                 android:layout_marginBottom="5dp"
                 android:hint="@string/hint_username"
                 android:textSize="10dp"
-                android:inputType="text"
+                android:inputType="textCapWords"
                 android:padding="10dp"
                 android:maxLines="1"
                 android:textColor="@color/input"
+                android:background="@color/white"
                 android:textColorHint="@color/input_hint" />
         </android.support.design.widget.TextInputLayout>
 
@@ -134,6 +138,7 @@
                 android:padding="10dp"
                 android:maxLines="1"
                 android:textColor="@color/input"
+                android:background="@color/white"
                 android:textColorHint="@color/input_hint" />
         </android.support.design.widget.TextInputLayout>
 
@@ -143,16 +148,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/gender"
             android:layout_weight="1"
-            android:layout_margin="5dp"/>
-
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/country"
-            android:layout_weight="1"
-            android:layout_margin="5dp"/>
-
+            android:layout_margin="5dp" />
 
         <!-- Login Button -->
         <android.support.v7.widget.AppCompatButton

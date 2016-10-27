@@ -24,6 +24,14 @@
             </meta-data>
         </activity>
 
+        <activity android:name=".ForgotLogin"
+            android:label="Log In Help"
+            android:parentActivityName=".LoginActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity">
+            </meta-data>
+        </activity>
+
         <activity android:name=".RegisterActivity"
             android:label="Sign Up"
             android:parentActivityName=".LoadingScreen">
@@ -31,10 +39,12 @@
                 android:value=".RegisterActivity">
             </meta-data>>
         </activity>
+
         <activity
-            android:name=".MainActivity">
+            android:name=".MainActivity"
             android:label="Helo.co"
-            android:parentActivityName=".LoadingScreen">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".LoginActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity">
             </meta-data>>
