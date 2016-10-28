@@ -15,7 +15,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/notification"
-            android:icon="@drawable/ic_schedule_black_18dp"
+            android:icon="@drawable/ic_notifications_none_black_18dp"
             android:title="Notifications" />
 
         <item
@@ -29,7 +29,7 @@
             android:title="Used Costumes" />
         <item
             android:id="@+id/favorite"
-            android:icon="@drawable/ic_favorite_black_18dp"
+            android:icon="@drawable/ic_star_black_18dp"
             android:title="Favorite Costumes" />
     </group>
 
@@ -43,6 +43,4 @@
             android:icon="@drawable/ic_settings_black_18dp"
             android:title="Setings" />
     </group>
-
-
 </menu>
