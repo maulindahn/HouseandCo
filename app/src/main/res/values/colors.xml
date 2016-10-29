@@ -13,4 +13,5 @@
     <color name="input_bg">#F5F5F5</color>
     <color name="btn_text">#ffffff</color>
     <color name="btn_bg">#00BCD4</color>
+    <color name="confirmed">#9E9E9E</color>
 </resources>
